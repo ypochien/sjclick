@@ -18,5 +18,5 @@
 <!-- Tick Chart -->
 <h3>Tick Chart</h3>
 <div>
-![](images/demo/main_tick_chart.png)
+<img src="https://github.com/ypochien/sjclick/raw/master/images/demo/main_tick_chart.png" alt="Tick Chart">
 </div>
