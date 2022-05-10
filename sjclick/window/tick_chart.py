@@ -26,6 +26,8 @@ class TickChart:
     def create_tick_chart_window_items(self):
         # data
         self._data['contract'] = self.hub.contract(self.stock_symbol)
+        if self._data['contract'] == None:
+            return
         self._data['codename'] = f"{self._data['contract'].code} {self._data['contract'].name}"
         self._data['ticks'] = self.hub.ticks(self.stock_symbol)
         self._data['snapshot'] = self.hub.snapshot(self.stock_symbol)

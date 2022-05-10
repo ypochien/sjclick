@@ -79,7 +79,7 @@ class SJHub:
     def ticks(self, stock_symbol):
         contract = self.contract(stock_symbol)
         if contract:
-            return self.api.ticks(contract, "2022-05-09")
+            return self.api.ticks(contract, contract.update_date.replace('/', '-'))
         return None
 
     def snapshot(self, stock_symbol):
