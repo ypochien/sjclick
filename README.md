@@ -7,7 +7,7 @@
 <!--Requirements-->
 <h2>Requirements</h2>
 <ul>
-    <li>Python 3.8+ </li>
+    <li>Python 3.8 </li>
     <li> <a href="https://sinotrade.github.io/">Shioaji API</a></li>
     <li> <a href="https://github.com/hoffstadt/DearPyGui">Dearpygui</a> </li>
 </ul>
